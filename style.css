@@ -373,11 +373,50 @@ button {
     margin-bottom: 1.5rem;
 }
 
+.hero-tagline {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent-emerald);
+    background: rgba(13, 110, 79, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-full);
+    margin-bottom: 1.5rem;
+}
+
 .hero-subtitle {
     font-size: 1.25rem;
     color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    max-width: 560px;
+    line-height: 1.7;
+}
+
+.hero-subtitle strong {
+    color: var(--accent-emerald);
+    font-weight: 600;
+}
+
+.hero-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     margin-bottom: 2rem;
-    max-width: 520px;
+}
+
+.hero-feature {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.hero-feature i {
+    color: var(--accent-amber);
+    font-size: 1rem;
 }
 
 .hero-buttons {

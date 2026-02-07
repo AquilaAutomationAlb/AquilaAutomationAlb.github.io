@@ -87,6 +87,12 @@ document.addEventListener('DOMContentLoaded', () => {
         'product2-badge': { sq: 'Administratë', en: 'Administration' },
         'product2-popular': { sq: 'Më i Kërkuari', en: 'Most Popular' },
         'product2-desc': { sq: 'Procesim i faturave / dokumenteve me AI (nxjerrja e të dhënave automatike). Nga PDF në Excel ose sistemin tuaj në sekonda.', en: 'Invoice / document processing with AI (automatic data extraction). From PDF to Excel or your system in seconds.' },
+        // New scenarios
+        'product2-pain-1': { sq: '😫 I lodhur duke shkruar manualisht totalin e çdo fature në Excel?', en: '😫 Tired of manually typing every invoice total into Excel?' },
+        'product2-pain-2': { sq: '📉 Gabime në shifra kur kopjoni të dhënat nga PDF-të?', en: '📉 Typos when copying data from PDFs?' },
+        'product2-pain-3': { sq: '🔍 Harxhoni orë duke kërkuar "atë faturën" në email?', en: '🔍 Waste hours searching for "that invoice" in your email?' },
+        'product2-solution': { sq: '✨ Zgjidhja: Thjesht bëni "Forward" email-in ose hidhni PDF-në në folder. AI e lexon, e kupton dhe e hedh në sistemin tuaj automatikisht.', en: '✨ Solution: Just forward the email or drop the PDF in a folder. AI reads it, understands it, and enters it into your system automatically.' },
+
         'product2-f1': { sq: 'Nxjerrje të Dhënash', en: 'Data Extraction' },
         'product2-f2': { sq: 'Saktësi AI', en: 'AI Accuracy' },
         'product2-f3': { sq: 'Arkivim Automatik', en: 'Auto Archiving' },

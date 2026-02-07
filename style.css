@@ -560,6 +560,73 @@ button {
     }
 }
 
+/* TOOLS BAR */
+.tools-bar {
+    padding: 2.5rem 0;
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.tools-label {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 2rem;
+}
+
+.tools-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.tool-logo {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.tool-logo:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.tool-logo i {
+    font-size: 2.5rem;
+}
+
+/* Brand colors */
+.tool-logo .fa-whatsapp {
+    color: #25D366;
+}
+
+.tool-logo .fa-instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.tool-logo .fa-google {
+    color: #4285F4;
+}
+
+.tool-logo .make-logo {
+    width: 80px;
+    height: 32px;
+    color: #6D00CC;
+}
+
+.tool-logo .openai-logo {
+    width: 36px;
+    height: 36px;
+    color: #10A37F;
+}
+
 /* WHY US */
 .why-us {
     padding: 6rem 0;
@@ -1078,8 +1145,19 @@ button {
         text-align: center;
     }
 
+    .hero-tagline {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .hero-subtitle {
         max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-features {
+        justify-content: center;
     }
 
     .hero-buttons {
@@ -1183,8 +1261,28 @@ button {
         padding-top: calc(var(--navbar-height) + 2rem);
     }
 
+    .hero-tagline {
+        font-size: 0.75rem;
+        padding: 0.4rem 0.8rem;
+        letter-spacing: 0.1em;
+    }
+
     .hero-title {
         font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .hero-features {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .hero-feature {
+        font-size: 0.85rem;
     }
 
     .hero-buttons {
@@ -1195,6 +1293,18 @@ button {
     .hero-buttons .btn {
         width: 100%;
         max-width: 280px;
+    }
+
+    .tools-bar {
+        padding: 2rem 0;
+    }
+
+    .tools-logos {
+        gap: 2.5rem;
+    }
+
+    .tool-logo i {
+        font-size: 2rem;
     }
 
     .products-grid {

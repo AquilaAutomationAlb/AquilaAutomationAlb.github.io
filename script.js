@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'hero-title-1': { sq: 'Automatizim Inteligjent', en: 'Intelligent Automation' },
         'hero-title-2': { sq: 'për Rritjen e Biznesit Tuaj', en: 'for Your Business Growth' },
         'hero-subtitle': {
-            sq: 'Zgjidhje të avancuara me AI për të optimizuar proceset, reduktuar kostot dhe eliminuar punën manuale.<br><br><strong>Inxhinierë të formuar në shkollat më të mira franceze në Paris.</strong>',
-            en: 'Advanced AI solutions to optimize processes, reduce costs, and eliminate manual work.<br><br><strong>Engineers trained at top French schools in Paris.</strong>'
+            sq: 'Zgjidhje të avancuara me AI për të optimizuar proceset, reduktuar kostot dhe eliminuar punën manuale.<br><br><strong>Inxhinierë të formuar në shkollat më të mira franceze në Paris 🇫🇷.</strong>',
+            en: 'Advanced AI solutions to optimize processes, reduce costs, and eliminate manual work.<br><br><strong>Engineers trained at top French schools in Paris 🇫🇷.</strong>'
         },
         'hero-btn-1': { sq: 'Shiko Zgjidhjet', en: 'View Solutions' },
         'hero-btn-2': { sq: 'Si Funksionon', en: 'How it Works' },

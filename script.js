@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const translations = {
         // Hero Section
         'hero-tagline': { sq: 'Agjensi Automatizimi me Make.com + Inteligjencë Artificiale', en: 'Automation Agency with Make.com + Artificial Intelligence' },
-        'hero-title-1': { sq: 'Ndërtojmë Sisteme', en: 'We Build Systems' },
-        'hero-title-2': { sq: 'që Punojnë për Ty 24/7', en: 'That Work For You 24/7' },
+        'hero-title-1': { sq: 'Automatizim Inteligjent', en: 'Intelligent Automation' },
+        'hero-title-2': { sq: 'për Rritjen e Biznesit Tuaj', en: 'for Your Business Growth' },
         'hero-subtitle': {
-            sq: 'Krijojmë automatizime të personalizuara me Make.com dhe Inteligjencë Artificiale që ti të flesh rehat.',
-            en: 'We create custom automations with Make.com and Artificial Intelligence so you can sleep soundly.'
+            sq: 'Zgjidhje të avancuara me AI për të optimizuar proceset, reduktuar kostot dhe eliminuar punën manuale.<br><br><strong>Inxhinierë të formuar në shkollat më të mira franceze në Paris.</strong>',
+            en: 'Advanced AI solutions to optimize processes, reduce costs, and eliminate manual work.<br><br><strong>Engineers trained at top French schools in Paris.</strong>'
         },
         'hero-btn-1': { sq: 'Shiko Zgjidhjet', en: 'View Solutions' },
         'hero-btn-2': { sq: 'Si Funksionon', en: 'How it Works' },
@@ -88,9 +88,9 @@ document.addEventListener('DOMContentLoaded', () => {
         'product2-popular': { sq: 'Më i Kërkuari', en: 'Most Popular' },
         'product2-desc': { sq: 'Procesim i faturave / dokumenteve me AI (nxjerrja e të dhënave automatike). Nga PDF në Excel ose sistemin tuaj në sekonda.', en: 'Invoice / document processing with AI (automatic data extraction). From PDF to Excel or your system in seconds.' },
         // New scenarios
-        'product2-pain-1': { sq: '😫 I lodhur duke shkruar manualisht totalin e çdo fature në Excel?', en: '😫 Tired of manually typing every invoice total into Excel?' },
-        'product2-pain-2': { sq: '📉 Gabime në shifra kur kopjoni të dhënat nga PDF-të?', en: '📉 Typos when copying data from PDFs?' },
-        'product2-pain-3': { sq: '🔍 Harxhoni orë duke kërkuar "atë faturën" në email?', en: '🔍 Waste hours searching for "that invoice" in your email?' },
+        'product2-pain-1': { sq: '😫 Eleminoni hedhjen manuale të të dhënave.', en: '😫 Eliminate manual data entry.' },
+        'product2-pain-2': { sq: '📉 Saktësi maksimale në përpunimin e dokumenteve.', en: '📉 Maximum accuracy in document processing.' },
+        'product2-pain-3': { sq: '🔍 Arkivim dhe akses i menjëhershëm i dokumentacionit.', en: '🔍 Instant archiving and access to documentation.' },
         'product2-solution': { sq: '✨ Zgjidhja: Thjesht bëni "Forward" email-in ose hidhni PDF-në në folder. AI e lexon, e kupton dhe e hedh në sistemin tuaj automatikisht.', en: '✨ Solution: Just forward the email or drop the PDF in a folder. AI reads it, understands it, and enters it into your system automatically.' },
 
         'product2-f1': { sq: 'Nxjerrje të Dhënash', en: 'Data Extraction' },
